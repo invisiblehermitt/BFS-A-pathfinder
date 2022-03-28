@@ -2,7 +2,7 @@ The program must be able to be run as follows:
 $ python pathfinder.py [map] [algorithm] [heuristic]
 The inputs/options to the program are as follows.
 • [map] specifies the path to map, which is a text file formatted according to this
-example (see next page):
+example :
 10 10
 1 1
 10 10
@@ -16,6 +16,8 @@ example (see next page):
 7 7 1 X X X 1 1 1 1
 8 8 1 1 1 1 1 1 1 1
 X 8 7 1 1 1 1 1 1 1
+
+
 The first line indicates the size of the map (rows by columns), while the second and third line represent the start and end positions respectively. The map data then follows, where all elevation values are integers from 0 to 9 inclusive.
 • [algorithm] specifies the search algorithm to use, with the possible values of bfs,
 ucs, and astar.
